@@ -1,0 +1,14 @@
+#用户登录成功
+url: http://127.0.0.1:8080/login
+method: post
+data:
+  username : hedy
+  pwd : 123456
+expect: '登录成功'
+---
+url: http://127.0.0.1:8080/login
+method: post
+data:
+  username : hedy
+  pwd : 12345
+expect: '密码错误'

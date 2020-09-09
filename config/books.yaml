@@ -1,0 +1,7 @@
+#excel用例的请求参数放在yaml文件中
+book_002:
+  {"author":"hedy","done":ture,"name":"测试实战"}
+book_003:
+  {"author":"hedy1","done":ture,"name":"测试实战"}
+book_004:
+  {"author":"hedy2","done":ture,"name":"测试实战"}
